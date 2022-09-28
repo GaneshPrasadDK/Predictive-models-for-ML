@@ -1,0 +1,16 @@
+Main ideas
+
+Best fit line to the data | sum of squared residuals | least squares method 
+
+Residual: Distance from the best fit line to the actual data point (expressed on y axis)
+Sum of squared residuals: sum of squared differences b/w y-actual and y-pred of the best fit line. Goal is to have minimum value
+The process of finding slope and y-incpt of the best fit line with least Sum of squared residuals is called as least squares method
+{ Why not use modulus/absolute value,instead of squaring the residuals (difference b/w y-actual and y-pred)? }
+
+R-squared
+How must variation in Y, can be explained by the independent variables. High R-squared explains best possible predictor line.
+[ Var(Y around mean) - Var (fit) ] / Var(Y around mean)
+
+Var(Y around mean) = sum of squared residuals for Y around mean / n
+Var(fit) = sum of squared residuals for best fit line / n
+
